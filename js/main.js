@@ -179,11 +179,11 @@ const productos = [
 const contenedorProductos = document.querySelector("#contenedorProductos")
 const botonesCategorias = document.querySelectorAll(".botonCategoria")
 
-function cargarProductos(productosELegidos) {
+function cargarProductos(productosElegidos) {
 
     contenedorProductos.innerHTML="";
 
-    productos.forEach(producto => {
+    productosElegidos.forEach(producto => {
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
@@ -200,13 +200,86 @@ function cargarProductos(productosELegidos) {
 cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
+
     boton.addEventListener("click", (e) => {
 
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
         e.currentTarget.classList.add("active");
 
-        const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-        cargarProductos(productosBoton);
+        const categoriaSeleccionada = e.currentTarget.id;
+
+        const productosBoton = productos.filter(producto => producto.categoria.id === categoriaSeleccionada);
+
+        if(categoriaSeleccionada === "todos") return cargarProductos(productos);
+        
+        return cargarProductos(productosBoton);
     })
     
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const contenedorProductos = document.querySelector("#contenedorProductos")
+// const botonesCategorias = document.querySelectorAll(".botonCategoria")
+
+// function cargarProductos(productosELegidos) {
+
+//     contenedorProductos.innerHTML="";
+
+//     productos.forEach(producto => {
+//         const div = document.createElement("div");
+//         div.classList.add("producto");
+//         div.innerHTML = `
+//             <img class="pruductoImagen" src="${producto.imagen}" alt="${producto.titulo}">
+//             <div class="productoDetalles">
+//                 <h3 class="productoTitulo">${producto.titulo}</h3>
+//                 <p class="productoTexto">$${producto.precio}</p>
+//                 <button class="productoAgregar" id="${producto.id}">Agregar</button>
+//             </div>`;
+//         contenedorProductos.append(div);
+//     })
+// }
+
+// cargarProductos(productos);
+
+// botonesCategorias.forEach(boton => {
+//     boton.addEventListener("click", (e) => {
+
+//         botonesCategorias.forEach(boton => boton.classList.remove("active"));
+//         e.currentTarget.classList.add("active");
+
+//         const categoriaSeleccionada = e.currentTarget.id;
+
+//         const productosBoton = productos.filter(producto => producto.categoria.id === categoriaSeleccionada);
+        
+//         if(categoriaSeleccionada === "todos") return cargarProductos(productos);
+//         return cargarProductos(productosBoton);
+//     })
+    
+// });
