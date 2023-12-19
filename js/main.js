@@ -209,10 +209,3 @@ botonesCategorias.forEach(boton => {
         cargarProductos(productosBoton);
     })
 });
-
-// if (e.currentTarget.id != "todos") {
-//     const productosFiltrados = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-//     cargarProductos(productosBoton);
-// } else {
-//     cargarProductos(productos);
-// }
