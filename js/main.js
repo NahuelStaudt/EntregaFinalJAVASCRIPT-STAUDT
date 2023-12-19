@@ -208,4 +208,5 @@ botonesCategorias.forEach(boton => {
         const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
         cargarProductos(productosBoton);
     })
+    
 });
