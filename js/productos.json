@@ -1,0 +1,172 @@
+[
+    {
+        "id": "Air Jordan 1 Retro High OG",
+        "titulo": "Air Jordan 1 Retro High OG",
+        "imagen": "./img/zapatillas/nike/Air Jordan 1 Retro High OG.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 229000
+    },
+    {
+        "id": "Jordan 1 Zoom Comfort 2",
+        "titulo": "Jordan 1 Zoom Comfort 2",
+        "imagen": "img/zapatillas/nike/Air Jordan 1 Zoom Comfort 2.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 222999
+    },
+    {
+        "id": "Air Jordan XXXVII Tatum",
+        "titulo": "Air Jordan XXXVII Tatum",
+        "imagen": "img/zapatillas/nike/Air Jordan XXXVII Tatum.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 238500
+    },
+    {
+        "id": "Jumpman MVP",
+        "titulo": "Jumpman MVP",
+        "imagen": "img/zapatillas/nike/Jumpman MVP.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nikes"
+        },
+        "precio": 299999
+    },
+    {
+        "id": "Air Force 1 Low Retro",
+        "titulo": "Air Force 1 Low Retro",
+        "imagen": "img/zapatillas/nike/Nike Air Force 1 Low Retro.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 120000
+    },
+    {
+        "id": "Air Force 1 Mid 07 LV8",
+        "titulo": "Air Force 1 Mid 07 LV8",
+        "imagen": "img/zapatillas/nike/Nike Air Force 1 Mid 07 LV8.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 210000
+    },
+    {
+        "id": "Air Max 97 OG",
+        "titulo": "Air Max 97 OG",
+        "imagen": "img/zapatillas/nike/Nike Air Max 97 OG.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 180999
+    },
+    {
+        "id": "Dunk Mid",
+        "titulo": "Dunk Mid",
+        "imagen": "img/zapatillas/nike/Nike Dunk Mid.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 199999
+    },
+    {
+        "id": "Kiger 9",
+        "titulo": "Kiger 9",
+        "imagen": "img/zapatillas/nike/Nike Kiger 9.webp",
+        "categoria": {
+            "nombre": "nike",
+            "id": "nike"
+        },
+        "precio": 98000
+    },
+    {
+        "id": "4D KRAZED",
+        "titulo": "4D KRAZED",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS ADIDAS 4D KRAZED.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 178999
+    },
+    {
+        "id": "DURAMO SL 2.0",
+        "titulo": "DURAMO SL 2.0",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS DURAMO SL 2.0.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 89999
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "FORUM BOLD",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS FORUM BOLD.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 100000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "FORUM MID",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS FORUM MID.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 220000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "NMD_R1",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS NMD_R1.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 140000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "STAN SMITH",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS STAN SMITH X ANDRÉ SARAIVA.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 130999
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "SUPERSTAR",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS SUPERSTAR.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 132500
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "TOP TEN RB",
+        "imagen": "img/zapatillas/adidas/ZAPATILLAS TOP TEN RB.avif",
+        "categoria": {
+            "nombre": "adidas",
+            "id": "adidas"
+        },
+        "precio": 198000
+    }
+]
